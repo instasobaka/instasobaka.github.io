@@ -383,8 +383,9 @@
 		         <input type="hidden" name="form_subject" value="Заказ!">
 		        <!-- END Hidden Required Fields -->
 		
-					<input type="text" class="form-control form-white" placeholder="Имя" required>
-					<input type="text" class="form-control form-white" placeholder="Почта" required>
+					<input type="text" name="Name" class="form-control form-white" placeholder="Имя" required>
+					<input type="text" name="E-mail" class="form-control form-white" placeholder="Почта" required>
+					<input type="text" name="Phone" class="form-control form-white" placeholder="Телефоон" required>
 					<div class="dropdown">
 						<button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Выбрать тип услуги
@@ -398,7 +399,7 @@
 					</div>
 					<div class="checkbox-holder text-left">
 						<div class="checkbox">
-							<input type="checkbox" value="None" id="squaredOne" name="check"  required/>
+							<input required type="checkbox" value="None" id="squaredOne" name="check" />
 							<label for="squaredOne"><span>Я согласен с <strong>Terms &amp; Conditions</strong></span></label>
 						</div>
 					</div>
